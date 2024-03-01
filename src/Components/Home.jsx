@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="flex">
       <div className="w-[50%] ml-40 float-left">
-        <p className=" mt-20 text-9xl text-balance font-bold">
+        <p className=" mt-20 text-9xl text-balance font-extrabold">
           YOUR FEET DESERVE THE BEST
         </p>
         <p className="w-[30rem] mt-10 text-slate-400 text-lg text-wrap text-balance font-bold">
