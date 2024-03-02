@@ -1,7 +1,15 @@
 import React from "react";
 import brand_logo from "../Images/brand_logo.png";
+import Login from "./Login";
 
 function Header() {
+
+  const handleLogin = () =>{
+    return(
+      <Login/>
+    )
+  }
+
   return (
     <div className="flex bg-slate-50 h-[60px] w-full shadow-md">
       <div>
@@ -16,7 +24,7 @@ function Header() {
         </ul>
       </div>
       <div className="float-end p-3 mr-10">
-        <button className="bg-red-500 text-white h-[35px] w-[65px]">
+        <button className="bg-red-500 text-white h-[35px] w-[65px]" onClick={handleLogin}>
           Login
         </button>
       </div>
